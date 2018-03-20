@@ -1,2 +1,2 @@
 # dockerfiles-java
-Various docker images with Java
+various docker images with Java
