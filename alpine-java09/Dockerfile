@@ -1,4 +1,4 @@
-M alpine:latest
+FROM alpine:latest
 MAINTAINER pwittchen
 USER root
 
