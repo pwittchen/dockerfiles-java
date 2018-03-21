@@ -1,5 +1,5 @@
 # dockerfiles-java
-various docker images with Java
+various docker images with java
 
 usage
 -----
