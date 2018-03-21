@@ -3,6 +3,6 @@ build:
 cli:
 	sudo docker run -i -t alpine-java8
 remove:
-	./remove.sh
+	../remove.sh alpine-java8
 list:
 	sudo docker images

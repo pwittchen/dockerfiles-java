@@ -3,6 +3,6 @@ build:
 cli:
 	sudo docker run -i -t ubuntu-java11
 remove:
-	./remove.sh
+	../remove.sh ubuntu-java11
 list:
 	sudo docker images
