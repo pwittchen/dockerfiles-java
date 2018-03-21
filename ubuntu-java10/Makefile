@@ -3,6 +3,6 @@ build:
 cli:
 	sudo docker run -i -t ubuntu-java10
 remove:
-	../remove.sh ubuntu-java10
+	../remove_container.sh ubuntu-java10
 list:
 	sudo docker images

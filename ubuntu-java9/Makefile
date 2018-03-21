@@ -3,6 +3,6 @@ build:
 cli:
 	sudo docker run -i -t ubuntu-java9
 remove:
-	../remove.sh ubuntu-java9
+	../remove_container.sh ubuntu-java9
 list:
 	sudo docker images
