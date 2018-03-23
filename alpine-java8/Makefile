@@ -1,12 +1,12 @@
 build:
-	sudo docker build -t alpine-java8 .
+	sudo docker build -t pwittchen/alpine-java8 .
 cli:
-	sudo docker run -i -t alpine-java8
+	sudo docker run -i -t pwittchen/alpine-java8
 remove:
-	../remove_container.sh alpine-java8
-list:
-	sudo docker images
+	../remove_container.sh pwittchen/alpine-java8
+push:
+	sudo docker push pwittchen/alpine-java8
 pull:
 	sudo docker pull pwittchen/alpine-java8
-cli_pulled:
-	sudo docker run -i -t pwittchen/alpine-java8
+list:
+	sudo docker images
