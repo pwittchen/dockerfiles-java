@@ -1,9 +1,9 @@
 build:
-	sudo docker build -t ubuntu-java10 .
+	sudo docker build -t pwittchen/ubuntu-java10 .
 cli:
-	sudo docker run -i -t ubuntu-java10
+	sudo docker run -i -t pwittchen/ubuntu-java10
 remove:
-	../remove_container.sh ubuntu-java10
+	../remove_container.sh pwittchen/ubuntu-java10
 push:
 	sudo docker push pwittchen/ubuntu-java10
 pull:

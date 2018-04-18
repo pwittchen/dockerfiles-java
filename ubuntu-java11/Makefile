@@ -1,9 +1,9 @@
 build:
-	sudo docker build -t ubuntu-java11 .
+	sudo docker build -t pwittchen/ubuntu-java11 .
 cli:
-	sudo docker run -i -t ubuntu-java11
+	sudo docker run -i -t pwittchen/ubuntu-java11
 remove:
-	../remove_container.sh ubuntu-java11
+	../remove_container.sh pwittchen/ubuntu-java11
 push:
 	sudo docker push pwittchen/ubuntu-java11
 pull:
