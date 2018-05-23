@@ -17,4 +17,4 @@ to list all containers, type:                   make list
 docker hub
 ----------
 
-view all my docker images on dokcer hub at: https://hub.docker.com/u/pwittchen/
+view all my docker images on docker hub at: https://hub.docker.com/u/pwittchen/
