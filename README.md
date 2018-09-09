@@ -18,3 +18,7 @@ docker hub
 ----------
 
 view all my docker images on docker hub at: https://hub.docker.com/u/pwittchen/
+
+known issues
+------------
+- [Why can run Java program manually in a Docker image but not as an ENTRYPOINT](https://stackoverflow.com/questions/51811955/why-can-run-java-program-manually-in-a-docker-image-but-not-as-an-entrypoint)
