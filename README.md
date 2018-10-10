@@ -19,6 +19,19 @@ docker hub
 
 view all my docker images on docker hub at: https://hub.docker.com/u/pwittchen/
 
+JVM implementations used in the Docker images
+---------------------------------------------
+- alpine-java11 (Open JDK)
+- alpine-java12 (Open JDK)
+- alpine-java8 (Open JDK)
+- alpine-sapmachine (SAP Machine, Java 10)
+- ubuntu-graalvm (Oracle)
+- ubuntu-java10 (Open JDK)
+- ubuntu-java11 (Open JDK)
+- ubuntu-java12 (Open JDK)
+- ubuntu-java8 (Oracle)
+- ubuntu-java9 (Oracle)
+
 known issues
 ------------
 - **alpine-java11**
