@@ -5,7 +5,7 @@ USER root
 RUN apt-get update
 RUN apt-get install software-properties-common -y
 RUN apt-get install wget -y
-RUN wget https://download.java.net/java/early_access/jdk12/10/GPL/openjdk-12-ea+10_linux-x64_bin.tar.gz
+RUN wget https://download.java.net/java/early_access/jdk12/30/GPL/openjdk-12-ea+30_linux-x64_bin.tar.gz
 RUN tar -xzvf *.tar.gz
 RUN mv jdk-12 /usr/local/share/
 RUN rm *.tar.gz
