@@ -39,3 +39,14 @@ known issues
 ------------
 - **alpine-java11**
   - [Why can run Java program manually in a Docker image but not as an ENTRYPOINT?](https://stackoverflow.com/questions/51811955/why-can-run-java-program-manually-in-a-docker-image-but-not-as-an-entrypoint)
+
+other images
+------------
+These images contains latest JDK releases, are provided and maintained by the official providers of the OpenJDK and I recommend to use them instead of images in this repo.
+
+- **AdoptOpenJDK**
+  - https://adoptopenjdk.net/
+  - https://hub.docker.com/u/adoptopenjdk
+- **Azul/Zulu**
+  - https://www.azul.com/downloads/zulu-community/
+  - https://hub.docker.com/u/azul
